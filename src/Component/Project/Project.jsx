@@ -2,6 +2,7 @@
 import "./project.scss";
 import crypto from "../../image/cryptotracker.png";
 import waller from "../../image/Screenshot (68).png";
+import blogging from "../../image/blogging.png";
 import podcast from "../../image/prodcast.png";
 import { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
@@ -38,7 +39,7 @@ const items = [
     title: "wallet",
     img: waller,
     desc: " I developed a comprehensive solution using Next.js, which allows users to authenticate, send money to other users, and add funds to their wallets. I implemented a bank webhook using Node.js and Prisma to manage transactions, utilizing dummy bank APIs to simulate money transfers. This project showcased my proficiency in building full-stack applications, handling user authentication, and integrating with external APIs to facilitate real-time transactions.",
-    live: "https://vercel.com/akash-ms-projects/wallet",
+    live: "https://wallet-psi-eight.vercel.app/",
     github: "https://github.com/akashikur24/wallet",
     stacks: ["JavaScript", "Nextjs", "reactjs", "Nodejs"],
   },
